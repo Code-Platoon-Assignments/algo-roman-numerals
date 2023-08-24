@@ -5,15 +5,15 @@
 To run `romanNumerals.js` itself:
 
 ```sh
-npm start
-# alternatively: node romanNumerals.js
+node romanNumerals.js
 ```
+
+> You might want to run `romanNumerals.js` itself so you can put in print statements and use a single test example while debugging
 
 To run `romanNumeralsSpec.js`:
 
 ```sh
-npm test
-# alternatively: node romanNumeralsSpec.js
+node romanNumeralsSpec.js
 ```
 
 ## Assignment

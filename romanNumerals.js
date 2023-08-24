@@ -1,4 +1,4 @@
-export function toRomanLazy(num) {
+function toRomanLazy(num) {
   let output = "";
 
   const romanNumeralToArabic = {
@@ -26,7 +26,7 @@ export function toRomanLazy(num) {
   return output;
 }
 
-export function toRoman(num) {
+function toRoman(num) {
   let output = "";
 
   const romanNumeralToArabic = {
@@ -71,3 +71,5 @@ export function toRoman(num) {
 
   return output;
 }
+
+module.exports = { toRoman, toRomanLazy };
